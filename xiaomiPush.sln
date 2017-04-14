@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiaomiPush", "xiaomiPush\xiaomiPush.csproj", "{AF3D383B-6AF8-4E7C-BB74-05FF5FC15A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidFrog", "AndroidFrog\AndroidFrog.csproj", "{2311B2D0-A3B8-4460-961C-B777D087A607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frog", "Frog\Frog.csproj", "{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jpushLib", "jpushLib\jpushLib.csproj", "{A843ADE0-6C6D-431B-BDA2-2B39DDF3C08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3D383B-6AF8-4E7C-BB74-05FF5FC15A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3D383B-6AF8-4E7C-BB74-05FF5FC15A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3D383B-6AF8-4E7C-BB74-05FF5FC15A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3D383B-6AF8-4E7C-BB74-05FF5FC15A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2311B2D0-A3B8-4460-961C-B777D087A607}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA577E7A-019F-4F27-BFCF-FF6EE9E474C6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A843ADE0-6C6D-431B-BDA2-2B39DDF3C08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A843ADE0-6C6D-431B-BDA2-2B39DDF3C08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A843ADE0-6C6D-431B-BDA2-2B39DDF3C08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A843ADE0-6C6D-431B-BDA2-2B39DDF3C08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
