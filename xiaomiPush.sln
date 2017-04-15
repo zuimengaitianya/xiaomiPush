@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmengFrog", "UmengFrog\Umen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmengBingdLib", "UmengBingdLib\UmengBingdLib.csproj", "{E21517AA-9AB2-4283-829D-4562EC32F922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQFrog", "QQFrog\QQFrog.csproj", "{53D7A96B-3032-49DC-965D-479AB89EAEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQPushLib", "QQPushLib\QQPushLib.csproj", "{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,16 @@ Global
 		{E21517AA-9AB2-4283-829D-4562EC32F922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21517AA-9AB2-4283-829D-4562EC32F922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21517AA-9AB2-4283-829D-4562EC32F922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D7A96B-3032-49DC-965D-479AB89EAEE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
