@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cal="clr-namespace:Caliburn.Micro.Xamarin.Forms;assembly=Caliburn.Micro.Platform.Xamarin.Forms"
+             x:Class="Notification.Views.HomeView"
+             xmlns:local="clr-namespace:Notification;assembly=Notification"
+                  Title="Notification Test"
+            >
+
+    <MasterDetailPage.Master>
+        <local:ViewLocatorPage Title="TTT" VM="{Binding}" BindingContext="{Binding MasterPage}" />
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail Title="AAA">
+        <ContentPage Title="BBB"></ContentPage>
+    </MasterDetailPage.Detail>
+
+
+
+</MasterDetailPage>

@@ -36,7 +36,7 @@
   <uses-permission android:name="android.permission.GET_TASKS" />
 
 
-  <application android:label="Frog">
+  <application android:label="密信" android:icon="@drawable/ic_launcher" >
 
     <!-- Required SDK 核心功能-->
     <!-- 可配置android:process参数将PushService放在其他进程中 -->
