@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--解决方法也很简单: 用 Mono 的 IndentService 代替 android.app.intentService. 在 binding Library 项目下的 Transforms/Metadata.xml 中添加：-->
+  <!--<attr path="/api/package[@name='cn.jpush.android.service']/class[@name='DownloadService' and @extends='android.app.IntentService']" name="extends">mono.android.app.IntentService</attr>-->
+  
+  <!--重命名属性名称-->
+  <attr path="/api/package[@name='com.baidu.loctp.str']/class[@name='BDLocManager.WifiList']/field[@name='WifiList']" name="managedName" >WifiAllList</attr>
+  <!--重命名类名称-->
+  <attr path="/api/package[@name='com.baidu.loctp.str']/class[@name='BDLocManager.WifiList']" name="managedName" >WifiAllList</attr>
+</metadata>

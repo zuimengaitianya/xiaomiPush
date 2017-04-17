@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQFrog", "QQFrog\QQFrog.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQPushLib", "QQPushLib\QQPushLib.csproj", "{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduPushFrog", "BaiduPushFrog\BaiduPushFrog.csproj", "{6B78D9A6-3346-4D7B-ACCD-8F8D39ABD374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiduADPushFrog", "BaiduADPushFrog\BaiduADPushFrog.csproj", "{CF0870AD-5BCF-4AC6-BAFB-C68B2F98CD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogBaiduPush", "FrogBaiduPush\FrogBaiduPush.csproj", "{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +77,20 @@ Global
 		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B66A818-5E31-4DAB-80A1-97A9E9BE18FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B78D9A6-3346-4D7B-ACCD-8F8D39ABD374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B78D9A6-3346-4D7B-ACCD-8F8D39ABD374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B78D9A6-3346-4D7B-ACCD-8F8D39ABD374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B78D9A6-3346-4D7B-ACCD-8F8D39ABD374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0870AD-5BCF-4AC6-BAFB-C68B2F98CD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0870AD-5BCF-4AC6-BAFB-C68B2F98CD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0870AD-5BCF-4AC6-BAFB-C68B2F98CD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0870AD-5BCF-4AC6-BAFB-C68B2F98CD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A4509A-F7BC-47B3-890C-A14C6DAB0E3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
